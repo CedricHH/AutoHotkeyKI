@@ -169,13 +169,19 @@ MsgBox "Extracted text: " text
 
 ### Implementation Details
 
-The AI functions are implemented in `source/lib/ai_image.cpp` and provide a framework for integrating AI/ML capabilities:
+The AI functions are implemented in `source/lib/ai_image.cpp` using advanced image processing techniques:
 
-- **Current Implementation**: Basic pattern matching and file validation
-- **Future Enhancement**: Integration with AI libraries like:
-  - OpenCV for image processing
+- **Phase 2 Implementation**: Real image analysis capabilities
+  - **Edge Detection**: Gradient-based edge detection for pattern recognition
+  - **Histogram Analysis**: Color distribution analysis for object detection
+  - **Text Detection**: High-frequency pattern analysis for text identification
+  - **Image Comparison**: Pixel-by-pixel and histogram-based similarity matching
+  - **Decision Engine**: Real-time condition evaluation with image analysis
+
+- **Future Enhancement**: Integration with additional AI libraries:
+  - OpenCV for advanced computer vision
   - ONNX Runtime for deep learning models
-  - Tesseract OCR for text recognition
+  - Tesseract OCR for enhanced text recognition
   - TensorFlow Lite for embedded AI models
 
 ### Performance Considerations
