@@ -148,6 +148,12 @@ md_func_x(IL_Destroy, IL_Destroy, Bool32, (In, UIntPtr, ImageList))
 
 md_func(ImageSearch, (Out_Opt, Variant, X), (Out_Opt, Variant, Y), (In, Int32, X1), (In, Int32, Y1), (In, Int32, X2), (In, Int32, Y2), (In, String, Image), (Ret, Bool32, Found))
 
+// AI-powered image recognition and decision-making functions
+md_func(AIImageRecognize, (In, String, ImageFile), (In_Opt, String, Mode), (Ret, String, Result))
+md_func(AIImageCompare, (In, String, Image1), (In, String, Image2), (In_Opt, Int32, Threshold), (Ret, Bool32, IsSimilar))
+md_func(AIDecide, (In, String, ImageFile), (In, String, Rules), (In_Opt, String, Options), (Ret, String, Decision))
+md_func(AIGetModelInfo, (In_Opt, String, ModelType), (Ret, String, Info))
+
 md_func(IniDelete, (In, String, Path), (In, String, Section), (In_Opt, String, Key))
 md_func(IniRead, (In, String, Path), (In_Opt, String, Section), (In_Opt, String, Key), (In_Opt, String, Default), (Ret, String, RetVal))
 md_func(IniWrite, (In, String, Value), (In, String, Path), (In, String, Section), (In_Opt, String, Key))

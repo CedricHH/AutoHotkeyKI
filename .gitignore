@@ -10,3 +10,4 @@ source/resources/png/
 *.aps
 *.sdf
 *.opensdf
+_codeql_detected_source_root
