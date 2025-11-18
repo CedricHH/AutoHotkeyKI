@@ -6,12 +6,19 @@ https://www.autohotkey.com/
 
 ## AI-Powered Features ##
 
-This fork includes AI-powered image recognition and decision-making capabilities:
+This fork includes AI-powered image recognition and decision-making capabilities **(Phase 2 - Active)**:
 
-* **AIImageRecognize()** - Recognize objects, text, and patterns in images
-* **AIImageCompare()** - Compare images using AI-powered similarity analysis
-* **AIDecide()** - Make automated decisions based on image analysis
-* **AIGetModelInfo()** - Get information about available AI models
+* **AIImageRecognize()** - Real image analysis with edge detection, histogram analysis, and pattern recognition
+* **AIImageCompare()** - Pixel and histogram-based similarity comparison with configurable thresholds
+* **AIDecide()** - Intelligent decision-making based on real-time image analysis
+* **AIGetModelInfo()** - Get information about available AI algorithms and capabilities
+
+**Phase 2 Implementation:**
+- Edge detection and pattern analysis algorithms
+- Color histogram analysis for object detection
+- Text pattern detection using contrast and edge density
+- Multi-metric image comparison (pixel + histogram)
+- Real-time condition evaluation in decision engine
 
 See [docs/AI_Functions.md](docs/AI_Functions.md) for complete documentation and [docs/AI_Examples.ahk](docs/AI_Examples.ahk) for usage examples.
 
