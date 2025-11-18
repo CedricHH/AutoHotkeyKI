@@ -4,6 +4,17 @@ AutoHotkey is a free, open source macro-creation and automation software utility
 
 https://www.autohotkey.com/
 
+## AI-Powered Features ##
+
+This fork includes AI-powered image recognition and decision-making capabilities:
+
+* **AIImageRecognize()** - Recognize objects, text, and patterns in images
+* **AIImageCompare()** - Compare images using AI-powered similarity analysis
+* **AIDecide()** - Make automated decisions based on image analysis
+* **AIGetModelInfo()** - Get information about available AI models
+
+See [docs/AI_Functions.md](docs/AI_Functions.md) for complete documentation and [docs/AI_Examples.ahk](docs/AI_Examples.ahk) for usage examples.
+
 
 ## Support ##
 
